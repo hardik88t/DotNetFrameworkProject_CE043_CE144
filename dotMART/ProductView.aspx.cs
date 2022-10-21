@@ -30,7 +30,7 @@ namespace dotMART
             }
             else
             {
-                Response.Redirect("~/Products.aspx");
+                Response.Redirect("~/Home.aspx");
             }
         }
 

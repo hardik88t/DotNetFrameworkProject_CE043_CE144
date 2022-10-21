@@ -181,6 +181,7 @@
                                             <div class="proPrice">
                                                 <span class="proOgPrice">₹
                                                     <%# Eval("PPrice","{0:00}") %>
+                                                    <%# Eval("PPriceDesc") %>
                                                 </span>
                                             </div>
                                         </div>
@@ -188,39 +189,12 @@
                                 </a>
                             </div>
                         </ItemTemplate>
-                        <%--<ItemTemplate>
-                            <div class="col-sm-3 col-md-3">
-                                <a href="ProductView.aspx?PID=<%# Eval("PID") %>" style="text-decoration: none;">
-                                    <div class="thumbnail">
-                                        <img src="Images/ProductImages/<%# Eval("PID") %>/<%# Eval("ImageName") %><%# Eval("Extention")" %>"
-                                            alt="<%# Eval("ImageName") %>" />
-                                        <div class="caption">
-                                            <div class="probrand">
-                                                <%# Eval ("BrandName") %>
-                                            </div>
-                                            <div class="proName">
-                                                <%# Eval ("PName") %>
-                                            </div>
-                                            <div class="proPrice">
-                                                <span class="proOgPrice">
-                                                    <%# Eval ("PPrice","{0:0,00}") %>
-                                                </span>
-                                                <%# Eval ("PSelPrice","{0:c}") %>
-                                                <span class="proPriceDiscount">(<%# Eval("DiscAmount","{0:0,00}") %>
-                                                    off) </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </ItemTemplate>--%>
                     </asp:Repeater>
                 </div>
             </div>
             <div class="panel-footer">
                 Buy Worth ₹799 to get a amazon gift card worth ₹99</div>
         </div>
-    </div>
     </div>
     <!---Middle COntents End---->
 
